@@ -11,7 +11,7 @@ const config = {
   favicon: "img/logo.svg",
 
   // Set the production url of your site here
-  url: "https://podcast.hung.dev",
+  url: "https://trochuyenit.hung.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "nvh95", // Usually your GitHub org/user name.
-  projectName: "podcast.hung.dev", // Usually your repo name.
+  projectName: "trochuyenit.hung.dev", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -43,7 +43,7 @@ const config = {
           showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/nvh95/podcast.hung.dev/edit/main/",
+          editUrl: "https://github.com/nvh95/trochuyenit.hung.dev/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -64,6 +64,11 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
+          {
+            href: "https://www.youtube.com/@trochuyenit",
+            label: "Youtube",
+            position: "right",
+          },
           {
             href: "https://www.facebook.com/hungdotdev/",
             label: "Facebook",
@@ -105,12 +110,12 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
+                label: "Hung's Blog",
                 href: "https://hung.dev",
               },
               {
                 label: "GitHub",
-                href: "https://github.com/nvh95",
+                href: "https://github.com/nvh95/trochuyenit.hung.dev",
               },
             ],
           },

@@ -1,41 +1,23 @@
-# Website
+# Trò chuyện IT
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+![](/static/img/social-card.jpg)
 
-### Installation
+## About
 
-```
-$ yarn
-```
+This repository contains the source code and data for the Podcast **Trò chuyện IT** <https://trochuyenit.hung.dev>.
 
-### Local Development
+The website is built with [Docusaurus](https://docusaurus.io/), a modern static website generator, and hosted on [Netlify](https://www.netlify.app/)
 
-```
-$ yarn start
-```
+## Running Locally
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- Install dependencies:
 
-### Build
-
-```
-$ yarn build
+```bash
+pnpm install
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- Start the development server:
 
-### Deployment
-
-Using SSH:
-
+```bash
+pnpm start
 ```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
