@@ -39,10 +39,10 @@ const config = {
       ({
         docs: false,
         blog: {
+          blogDescription:
+            "Trò chuyện IT - Cùng trò chuyện về công việc và cuộc sống của những con người đang làm trong ngành công nghệ",
           routeBasePath: "/",
           showReadingTime: false,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/nvh95/trochuyenit.hung.dev/edit/main/",
         },
         theme: {
